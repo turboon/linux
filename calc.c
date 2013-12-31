@@ -26,6 +26,8 @@ int main(void) {
 				printf( "%6.2f\n", num1 / num2 );
 			}
 			break;
+		} else {
+			printf( "Bad input!" );
 		}
 	}
 return 0;
